@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E58DB8361A8A4B33000FB215 /* Product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E58DB8341A8A4B33000FB215 /* Product.cpp */; };
+		E58DB8391A8A4D6B000FB215 /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E58DB8371A8A4D6B000FB215 /* Book.cpp */; };
+		E58DB83C1A8A4FBD000FB215 /* Software.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E58DB83A1A8A4FBD000FB215 /* Software.cpp */; };
 		E5D4E8DE1A837F97004D6312 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5D4E8DD1A837F97004D6312 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E58DB8341A8A4B33000FB215 /* Product.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Product.cpp; sourceTree = "<group>"; };
+		E58DB8351A8A4B33000FB215 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		E58DB8371A8A4D6B000FB215 /* Book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Book.cpp; sourceTree = "<group>"; };
+		E58DB8381A8A4D6B000FB215 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		E58DB83A1A8A4FBD000FB215 /* Software.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Software.cpp; sourceTree = "<group>"; };
+		E58DB83B1A8A4FBD000FB215 /* Software.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Software.h; sourceTree = "<group>"; };
 		E5D4E8DA1A837F97004D6312 /* ADSWeek1Lab1a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ADSWeek1Lab1a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D4E8DD1A837F97004D6312 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				E5D4E8DD1A837F97004D6312 /* main.cpp */,
+				E58DB8341A8A4B33000FB215 /* Product.cpp */,
+				E58DB8351A8A4B33000FB215 /* Product.h */,
+				E58DB8371A8A4D6B000FB215 /* Book.cpp */,
+				E58DB8381A8A4D6B000FB215 /* Book.h */,
+				E58DB83A1A8A4FBD000FB215 /* Software.cpp */,
+				E58DB83B1A8A4FBD000FB215 /* Software.h */,
 			);
 			path = ADSWeek1Lab1a;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58DB83C1A8A4FBD000FB215 /* Software.cpp in Sources */,
+				E58DB8391A8A4D6B000FB215 /* Book.cpp in Sources */,
 				E5D4E8DE1A837F97004D6312 /* main.cpp in Sources */,
+				E58DB8361A8A4B33000FB215 /* Product.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +250,7 @@
 				E5D4E8E31A837F97004D6312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
